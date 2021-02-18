@@ -1,0 +1,185 @@
+#vprofile {
+    .row {
+        .col-xl-4 {
+            .vprofile-image {
+                img{
+                    width: 150px;
+                    height: 150px;
+                    cursor: pointer;
+                    object-fit: scale-down;
+                }
+            }
+        }
+        
+        #vprofile-title {
+            .title {
+                display: flex;
+                align-items: center;
+                .username {
+                    font-size: 23px;
+                    font-weight: 400;
+                    letter-spacing: 2px;
+                    color: rgba(36, 36, 36, 0.774);
+                }
+                button {
+                    background: none;
+                    outline: none;
+                    border: none;
+                    padding: 5px 10px;
+                    border: .5px solid rgba(90, 90, 90, 0.144);
+                    color: rgba(32, 32, 32, 0.685);
+                    font-weight: 700;
+                    font-size: 14px;
+                    border-radius: 5px;
+                }
+                button:active{
+                    color: rgba(82, 82, 82, 0.466);
+                }
+                i{
+                    font-size: 35px;
+                    cursor: pointer;
+                }
+                
+            }
+        }
+        .post-follow-desk {
+            display: flex; 
+            span {
+                color: rgba(19, 19, 19, 0.726);
+                font-weight: 700;
+            }
+        }
+        .firstname{
+            font-weight: 600;
+            color: rgba(19, 19, 19, 0.788);
+        }
+    }
+    #divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 5px;
+        color: rgba(20, 20, 20, 0.767);
+        text-transform: uppercase;
+        i {
+            line-height: 30px;
+        }
+    }
+    #gallery-section {
+        .col-xl-4 {
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+            img {
+                width:100%;
+                height:100%;
+                object-fit: cover;
+                overflow: hidden;
+            }
+            .otherpost-modal {
+                .col-lg-6 {
+                    .title {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            width: 50px;
+                            height: 50px;
+                            object-fit: cover;
+                        }
+                        p {
+                            span {
+                                font-weight: 500;
+                                font-size: 13px;
+                                color: rgba(31, 31, 31, 0.685);
+                            }
+                            .username {
+                                font-weight: 700;
+                                font-size: 19px;
+                                letter-spacing: 1px;
+                                color: rgba(31, 31, 31, 0.685);
+                            }
+                        }
+                    }
+                    .other-content {
+                        .liked {
+                            display: flex;
+                            // align-items: center;
+                            p {
+                                font-weight: 700;
+                                font-size: 15px;
+                                color: rgb(15, 15, 15);
+                            }
+                        }
+                        .comment {
+                            p {
+                                display: flex;
+                                align-items: center;
+                                padding: 10px 10px;
+                                background: rgba(0, 0, 0, 0.473);
+                                border-left: 6px solid rgb(180, 15, 15);
+                                img {
+                                    width: 30px;
+                                    height: 30px;
+                                    object-fit: cover;
+                                }
+                                span {
+                                    font-weight: 600;
+                                    font-size: 15px;
+                                    color: rgba(10, 10, 10, 0.774);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .foot {
+        p {
+            font-weight: 600;
+            font-size: 12px;
+            letter-spacing: 3px;
+            color: rgba(34, 34, 34, 0.719);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #vprofile {
+        .row {
+            .col-xl-4 {
+                .vprofile-image {
+                    img{
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+            }
+            #vprofile-title {
+                .title {
+                    justify-content: space-around;
+                    .username {
+                        font-size: 13px;
+                        font-weight: 400;
+                        color: rgba(36, 36, 36, 0.61);
+                    }
+                    
+                }
+            }
+            .post-follow-desk {
+                justify-content: space-around;
+                span {
+                    font-size: 11px;
+                }
+            }
+        }
+        .foot {
+            p {
+                font-size: 9px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

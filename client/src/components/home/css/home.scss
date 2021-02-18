@@ -1,0 +1,299 @@
+html,body {
+    overflow-x: hidden;
+}
+#body-wrapper {
+    .row {
+        .col-xl-6 {
+            .post-body {
+                background: white;
+                border-radius: 3px;
+                border: .5px solid rgba(43, 43, 43, 0.116);
+                .post-title {
+                    padding: 5px 0;
+                    display: flex;
+                    align-items: center;
+                    p{
+                        font-size: 15px;
+                        font-weight: 500;
+                        span {
+                            cursor: pointer;
+                        }
+                    }
+                    img {
+                        width:40px;
+                        height:40px;
+                        object-fit: cover;
+                        overflow: hidden;
+                    }
+                }
+                .post-pic {
+                    img{
+                        width:100%;
+                        height:100%;
+                        object-fit: scale-down;
+                        overflow: hidden;
+                    }
+                }
+                .post-likcom {
+                    padding: 10px 10px;
+                    display: flex;
+                    
+                    i {
+                        font-size: 33px;
+                        cursor: pointer;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+                .post-desc {
+                    padding: 10px 20px;
+                    p {
+                        font-size: 14px;
+                        font-weight: 500;
+                        span {
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: rgba(34, 34, 34, 0.575);
+                            cursor: pointer;
+                        }
+                        b{
+                            cursor: pointer;
+                        }
+                    }
+                    .like-modal {
+                        .modal-body {
+                            list-style: none;
+                            padding: 0;
+                            margin: 0;
+                            p {
+                                width: 100%;
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                                font-weight: 500;
+                                font-size: 15px;
+                                cursor: pointer;
+                                list-style: none;
+                                li {
+                                    img {
+                                        width:30px;
+                                        height:30px;
+                                        object-fit: cover;
+                                        overflow: hidden;
+                                    }
+                                    span {
+                                        color: rgba(20, 20, 20, 0.822);
+                                        font-weight: 500;
+                                    }
+                                }
+                            }
+                            p:first-child {
+                                font-weight: 600;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+                .post-comment {
+                    padding: 0px 20px;
+                    p {
+                        font-size: 15px;
+                        span {
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: rgba(34, 34, 34, 0.575);
+                            cursor: pointer;
+                        }
+                        b {
+                            cursor: pointer;
+                        }
+                    }
+                    .comment-modal {
+                        .modal-body {
+                            list-style: none;
+                            padding: 0;
+                            margin: 0;
+                            p {
+                                width: 100%;
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                                font-weight: 500;
+                                font-size: 15px;
+                                cursor: pointer;
+                                list-style: none;
+                                li {
+                                    margin: 5px;
+                                    padding: 10px 10px;
+                                    background: rgba(90, 90, 90, 0.144);
+                                    border-radius: 4px;
+                                    img {
+                                        width:30px;
+                                        height:30px;
+                                        object-fit: cover;
+                                        overflow: hidden;
+                                    }
+                                    span {
+                                        color: rgba(20, 20, 20, 0.822);
+                                        font-weight: 500;
+                                    }
+                                }
+                            }
+                            p:first-child {
+                                font-weight: 600;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+                .post-time {
+                    padding: 0px 20px;
+                    font-weight: 500;
+                    font-size: 12px;
+                    color: rgba(0, 0, 0, 0.377);
+                }
+                .post-commentinput {
+                    padding: 0px 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    input {
+                        background: none;
+                        outline: none;
+                        border: none;
+                        font-weight: 500;
+                        font-size: 14px;
+                        letter-spacing: .5px;
+                        color: rgba(0, 0, 0, 0.658);
+                    }
+                    input:focus {
+                        color: rgba(0, 0, 0, 0.774);
+                        font-size: 15px;
+                    }
+                    button {
+                        background: none;
+                        border: none;
+                        outline: none;
+                        font-weight: 600;
+                        color: rgba(70, 72, 209, 0.781);
+                    }
+                }
+            }
+            .create-body {
+                background: white;
+                border-radius: 3px;
+                border: .5px solid rgba(43, 43, 43, 0.116);
+                .create-title {
+                    padding: 5px 0;
+                    p{
+                        font-size: 15px;
+                        font-weight: 500;
+                    }
+                }
+                .create-content {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px 40px;
+                    background: #fafafa;
+                    border: .5px solid rgba(43, 43, 43, 0.116);
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        cursor: pointer;
+                        object-fit: cover;
+                    }
+                    textarea {
+                        background: none;
+                        outline: none;
+                        border: none;
+                        resize: none;
+                    }
+                }
+                .create-footer {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 7px 30px;
+                    .photo {
+                        display: flex;
+                        align-items: center;
+                        i {
+                            cursor: pointer;
+                            font-size: 40px;
+                            color: rgb(201, 36, 36);
+                        } 
+                        
+                        span {
+                            transition: all .5 ease-in-out;
+                            font-weight: 600;
+                            color: rgba(43, 43, 43, 0.705);
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    #body-wrapper {
+        .row {
+            .col-xl-6 {
+                .post-body {
+                    .post-title {
+                        padding: 1px 0;
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    .post-likcom {
+                        padding: 8px 10px;
+                        i {
+                            font-size: 28px;
+                        }
+                    }
+                    .post-desc {
+                        padding: 10px 15px;
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+                    .post-comment {
+                        padding: 0px 15px;
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+                    .post-commentinput {
+                        padding: 0px 10px;
+                    }
+                }
+                .create-body {
+                    .create-title {
+                        p{
+                            font-size: 13px;
+                            font-weight: 500;
+                        }
+                    }
+                    .create-content {
+                        padding: 10px 15px;
+                        border: .5px solid rgba(43, 43, 43, 0.116);
+                        img{
+                            width: 40px;
+                            height: 40px;
+                        }
+                        textarea {
+                            font-size: 15px;
+                        }
+                    }
+                    .create-footer {
+                        padding: 7px 15px;
+                        .photo {
+                            i {
+                                font-size: 20px;
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

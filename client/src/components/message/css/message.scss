@@ -1,0 +1,57 @@
+#chat {
+    .col-xl-7 {
+        background: #ffffff;
+        border: .5px solid rgba(44, 44, 44, 0.205);
+        border-radius: 5px;
+        .row {
+            .col-xl-4 {
+                .follower-box {
+                    .follower-title {
+                        p {
+                            font-size: 25px;
+                            font-weight: 700;
+                            color: rgba(20, 20, 20, 0.829);
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                .followers-body {
+                    p {
+                        cursor: pointer;
+                        border-top: .5px solid rgba(0, 0, 0, 0.555);
+                        padding: 10px 0px;
+                        img {
+                            width: 40px;
+                            height: 40px;
+                            object-fit: scale-down;
+                        }
+                        span {
+                            font-size: 17px;
+                            font-weight: 600;
+                            color: rgba(39, 39, 39, 0.753);
+                        }
+                    }
+                }
+            }
+            .col-xl-8 {
+                border-left: rgba(37, 37, 37, 0.658) .5px solid;
+                .chat-box {
+                    p {
+                        cursor: pointer;
+                        padding: 10px 0px;
+                        img {
+                            width: 40px;
+                            height: 40px;
+                            object-fit: scale-down;
+                        }
+                        span {
+                            font-size: 17px;
+                            font-weight: 600;
+                            color: rgba(39, 39, 39, 0.753);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

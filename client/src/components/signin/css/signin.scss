@@ -1,0 +1,126 @@
+#signin-body {
+    .row {
+        #img-div {
+            display: flex;
+            justify-content: center;
+        }
+        #content-div {
+            #main-area {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                div {
+                    width: 100%;
+                }
+                .signin-box {
+                    background: white;
+                    padding: 30px 40px;
+                    border: .3px solid rgba(121, 98, 98, 0.212);
+                    .logo {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img {
+                            width: 180px;
+                            height: 60px;
+                        }
+                    }
+                    #form {
+                        input {
+                            background: none;
+                            outline: none;
+                            border: none;
+                            background: #fafafa;
+                            border: .5px solid rgba(100, 100, 100, 0.37);
+                            padding: 9px 10px;
+                            color: rgba(61, 61, 61, 0.349);
+                            font-size: 13px;
+                            border-radius: 2px;
+                        }
+                        input:focus {
+                            border: .5px solid rgba(100, 100, 100, 0.603);
+                            color: rgba(61, 61, 61, 0.795);
+                        }
+                        button {
+                            background: none;
+                            outline: none;
+                            border: none;
+                            font-weight: 600;
+                            background: #0095f6;
+                            color: #f2faff;
+                            padding: 5px;
+                            border-radius: 4px;
+                            font-size: 15px;
+                        }
+                    }
+                    .seprater {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .line1,.line2 {
+                            margin: 15px;
+                            width: 200px;
+                            height: .5px;
+                            background: rgba(26, 26, 26, 0.199);
+                        }
+                        span {
+                            color: rgba(26, 26, 26, 0.384);
+                            font-weight: 700;
+                            font-size: 14px;
+                        }
+                    }
+                    .with-facebook {
+                        p {
+                            font-size: 14.5px;
+                            font-weight: 600;
+                            color: #385185;
+                            cursor: pointer;
+                        }
+                    }
+                    .forgot-password {
+                        p {
+                            font-size: 13px;
+                            font-weight: 400;
+                            color: #5381ac;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .signup-refer-box {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: white;
+                    padding: 24px 24px 5px 24px;
+                    border: .3px solid rgba(121, 98, 98, 0.212);
+                    p {
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+                @media screen and (max-width: 768px) {
+                    .signin-box {
+                        padding: 30px 20px;
+                        background: none;
+                        border: none;
+                    }
+                    .signup-refer-box {
+                        background: none;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    #signin-body {
+        .row {
+            #img-div {
+                display: none !important;
+            }
+        }
+    }
+}

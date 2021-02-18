@@ -1,0 +1,280 @@
+#profile-section .row .col-xl-4 .profile-image img {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#profile-section .row .col-xl-4 #profilepicmanage .modal-body {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#profile-section .row .col-xl-4 #profilepicmanage .modal-body p {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#profile-section .row .col-xl-4 #profilepicmanage .modal-body p:first-child {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#profile-section .row #profile-title .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#profile-section .row #profile-title .title .username {
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: rgba(36, 36, 36, 0.774);
+}
+
+#profile-section .row #profile-title .title button {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  border: 0.5px solid rgba(90, 90, 90, 0.144);
+  color: rgba(32, 32, 32, 0.685);
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+#profile-section .row #profile-title .title button:active {
+  color: rgba(82, 82, 82, 0.466);
+}
+
+#profile-section .row #profile-title .title i {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+#profile-section .row .mobilebutton {
+  display: none;
+}
+
+#profile-section .row .mobilebutton button {
+  background: none;
+  outline: none;
+  border: none;
+  border: 0.5px solid rgba(90, 90, 90, 0.342);
+  padding: 5px 10px;
+  color: rgba(32, 32, 32, 0.685);
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#profile-section .row .post-follow-desk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#profile-section .row .post-follow-desk span {
+  color: rgba(19, 19, 19, 0.726);
+  font-weight: 700;
+}
+
+#profile-section .row .firstname {
+  font-weight: 600;
+  color: rgba(19, 19, 19, 0.788);
+}
+
+#profile-section .setting-modal {
+  z-index: 10000;
+}
+
+#profile-section .setting-modal .modal-body {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#profile-section .setting-modal .modal-body p {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#profile-section .setting-modal .modal-body p span {
+  color: black;
+}
+
+#profile-section .setting-modal .modal-body #change-password input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  border: 0.5px solid rgba(53, 53, 53, 0.432);
+  color: rgba(37, 37, 37, 0.247);
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+#profile-section .setting-modal .modal-body #change-password input:focus {
+  color: rgba(37, 37, 37, 0.74);
+  border: 0.5px solid rgba(53, 53, 53, 0.651);
+}
+
+#profile-section #divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 5px;
+  color: rgba(20, 20, 20, 0.767);
+  text-transform: uppercase;
+}
+
+#profile-section #divider i {
+  line-height: 30px;
+}
+
+#profile-section #gallery-section .col-xl-4 {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+#profile-section #gallery-section .col-xl-4 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+#profile-section #gallery-section .col-xl-4 .status {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  width: 50%;
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#profile-section #gallery-section .col-xl-4 .status p {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-transform: translateY(70%);
+          transform: translateY(70%);
+  font-size: 3px;
+  font-weight: 800;
+}
+
+#profile-section #gallery-section .col-xl-4 .status p i {
+  font-weight: 1000;
+  font-size: 30px;
+  text-shadow: 0px 2px 1px rgba(26, 26, 26, 0.562), 0px 1.5px 1px rgba(26, 26, 26, 0.562);
+}
+
+#profile-section #gallery-section .col-xl-4 .status p span {
+  color: rgba(15, 6, 6, 0.719);
+  font-size: 18px;
+  text-shadow: 0.5px 0.5px 0.5px rgba(87, 87, 87, 0.527);
+}
+
+#profile-section #gallery-section .col-xl-4:hover .status {
+  background: rgba(27, 27, 27, 0.664);
+}
+
+#profile-section #gallery-section .col-xl-4:hover .status p {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(40%);
+          transform: translateY(40%);
+  font-size: 19px;
+}
+
+#profile-section .foot p {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: rgba(34, 34, 34, 0.719);
+}
+
+@media screen and (max-width: 768px) {
+  #profile-section .row .col-xl-4 .profile-image img {
+    width: 60px;
+    height: 60px;
+  }
+  #profile-section .row #profile-title .title {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #profile-section .row #profile-title .title .username {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(36, 36, 36, 0.61);
+  }
+  #profile-section .row #profile-title .title button {
+    display: none;
+  }
+  #profile-section .row #profile-title .title i {
+    font-size: 25px;
+    cursor: pointer;
+  }
+  #profile-section .row .mobilebutton {
+    display: block;
+  }
+  #profile-section .row .post-follow-desk {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #profile-section .row .post-follow-desk span {
+    font-size: 11px;
+  }
+  #profile-section #gallery-section .col-xl-4 .status {
+    width: 70%;
+  }
+  #profile-section #gallery-section .col-xl-4 .status p i {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  #profile-section #gallery-section .col-xl-4:hover .status p {
+    font-size: 15px;
+  }
+  #profile-section .foot p {
+    font-size: 9px;
+    letter-spacing: 1px;
+  }
+}
+
+.showpasswordchange {
+  display: block !important;
+}
+/*# sourceMappingURL=profile.css.map */

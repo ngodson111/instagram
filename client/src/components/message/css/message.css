@@ -1,0 +1,54 @@
+#chat .col-xl-7 {
+  background: #ffffff;
+  border: 0.5px solid rgba(44, 44, 44, 0.205);
+  border-radius: 5px;
+}
+
+#chat .col-xl-7 .row .col-xl-4 .follower-box .follower-title p {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(20, 20, 20, 0.829);
+  letter-spacing: 2px;
+}
+
+#chat .col-xl-7 .row .col-xl-4 .followers-body p {
+  cursor: pointer;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.555);
+  padding: 10px 0px;
+}
+
+#chat .col-xl-7 .row .col-xl-4 .followers-body p img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+#chat .col-xl-7 .row .col-xl-4 .followers-body p span {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(39, 39, 39, 0.753);
+}
+
+#chat .col-xl-7 .row .col-xl-8 {
+  border-left: rgba(37, 37, 37, 0.658) 0.5px solid;
+}
+
+#chat .col-xl-7 .row .col-xl-8 .chat-box p {
+  cursor: pointer;
+  padding: 10px 0px;
+}
+
+#chat .col-xl-7 .row .col-xl-8 .chat-box p img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+#chat .col-xl-7 .row .col-xl-8 .chat-box p span {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(39, 39, 39, 0.753);
+}
+/*# sourceMappingURL=message.css.map */
